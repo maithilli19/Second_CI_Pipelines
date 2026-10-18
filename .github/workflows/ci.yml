@@ -46,6 +46,6 @@ jobs:
             exit 1
           fi
 
-      # Step 6: Run automated tests
+     # Step 6: Run automated tests
       - name: Run pytest
         run: python -m pytest -v
